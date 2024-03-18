@@ -11,6 +11,9 @@ node_modules
 dist
 dist.zip
 dist-ssr
+dist-dev
+dist-prod
+dist-dev.zip
 *.local
 
 # Editor directories and files

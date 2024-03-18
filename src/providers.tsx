@@ -1,4 +1,3 @@
-'use client';
 import * as React from 'react';
 import wargmiConfig from './config/wagmi';
 import { WagmiProvider } from 'wagmi'

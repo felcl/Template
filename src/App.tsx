@@ -1,10 +1,10 @@
 import './App.css'
-import { ConnectButton } from '@rainbow-me/rainbowkit';
+import Router from './router/index'
 function App() {
 
   return (
     <>
-    <ConnectButton />
+    <Router />
     </>
   )
 }
