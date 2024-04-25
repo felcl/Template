@@ -11,14 +11,14 @@ export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <WagmiProvider config={wargmiConfig}>
       <QueryClientProvider client={queryClient}>
-        <RainbowKitAuthenticationProvider
+        {/* <RainbowKitAuthenticationProvider
           adapter={authenticationAdapter}
           status='unauthenticated'
-        >
+        > */}
           <RainbowKitProvider>
             {mounted && children}
           </RainbowKitProvider>
-        </RainbowKitAuthenticationProvider>
+        {/* </RainbowKitAuthenticationProvider> */}
       </QueryClientProvider>
     </WagmiProvider >
   );
