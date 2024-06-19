@@ -10,7 +10,7 @@ export default function Router() {
       },[location.pathname])
     return (
         <Routes>
-          <Route path='/' element={<AE />} />
+          <Route path='/' element={<Home />} />
         </Routes>
     );
   }
