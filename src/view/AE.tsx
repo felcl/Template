@@ -35,6 +35,7 @@ const AE = () => {
     }
     const stop= () =>{
         if (!Animation.current) {
+            
             return
         }
         Animation.current.goToAndStop(10,true)
